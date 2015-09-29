@@ -134,7 +134,7 @@ img {
 <pre><code>#&gt; Loading required package: DBI
 #&gt; Loading required package: methods</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">## Set dbname and driver out of convenience
-myDB &lt;-<span class="st"> &quot;data/portal_mammals.sqlite&quot;</span>
+DB &lt;-<span class="st"> &quot;data/portal_mammals.sqlite&quot;</span>
 conn &lt;-<span class="st"> </span><span class="kw">dbConnect</span>(<span class="dt">drv =</span> <span class="kw">SQLite</span>(), <span class="dt">dbname=</span> myDB)</code></pre></div>
 <p>Now you’re connected to your database, you can get information about the tables in the database. While SQLite manager will provide this for you, you’ll need to get it yourself with some basic SQL commands</p>
 </div>
